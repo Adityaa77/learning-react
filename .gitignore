@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.vite/
+my-react-app/node_modules/
+my-react-app/dist/
+public/
+.sh/

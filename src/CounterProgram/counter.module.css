@@ -1,0 +1,101 @@
+/* counter.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px; /* Adjust as needed */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  margin: 50px auto; /* Center the component */
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 15px; /* Space between buttons */
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  min-width: 100px; /* Ensure buttons have consistent width */
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+/* Specific button styles */
+.incrementButton {
+  background-color: #28a745; /* Green */
+  color: white;
+}
+
+.incrementButton:hover {
+  background-color: #218838;
+}
+
+.decrementButton {
+  background-color: #dc3545; /* Red */
+  color: white;
+}
+
+.decrementButton:hover {
+  background-color: #c82333;
+}
+
+.resetButton {
+  background-color: #007bff; /* Blue */
+  color: white;
+  margin-top: 15px; /* Space above reset button */
+}
+
+.resetButton:hover {
+  background-color: #0056b3;
+}
+
+.countDisplay {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.saveButton {
+  background-color: #ffc107; /* Yellow/Orange */
+  color: #333; /* Darker text for contrast */
+  margin-top: 15px; /* Add some space */
+}
+
+.saveButton:hover {
+  background-color: #e0a800;
+}
+
+.countDisplay {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* New style for the saved count display */
+.savedDisplay {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}

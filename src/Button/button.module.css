@@ -1,0 +1,14 @@
+
+.mybutton {
+  height: 100px;
+  width: 300px;
+  font-size: 3rem; 
+  padding: 15px 30px; 
+  background-color: aqua;
+  color: white;
+  border: solid black 2px;
+  border-radius: 20px;
+}
+.mybutton:hover{
+    background-color: rgb(40, 145, 145);
+}

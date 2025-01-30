@@ -1,0 +1,15 @@
+.mydiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.myh1{
+    background-color: rgb(24, 221, 24);
+    color: white;
+}
+.mylogin{
+    background-color: rgb(212, 14, 14);
+    color: white;
+}
