@@ -1,4 +1,4 @@
-# Learning React 
+# Learning React.JS 
 
 This repository contains my personal projects and exercises while learning **React.js**.  
 The purpose of this repo was to practice and consolidate React concepts and build small components and applications.
